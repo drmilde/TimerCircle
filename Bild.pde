@@ -16,5 +16,6 @@ class Bild extends Rechteck implements IAnimierbar {
 
   public void update(float time, float mintime, float maxtime, float min, float max) {
     this.y = map(time, mintime, maxtime, min, max);
+    this.x = map(time, mintime, maxtime, min, max);
   }
 }
